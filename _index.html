@@ -33,162 +33,7 @@
 
     <!-- Main Css -->
     <link href="css/tekkMuscle.css" rel="stylesheet" />
-    <style>
-        .bannerHeadName{font-size:8.2em; margin-top:145px; margin-left:105px !important;}
-        .bannerHeadsubtext{margin-left: 110px !important; margin-top:-40px !important;}
-        .bannerHeadsubtextmini{margin-top:-19px; margin-left:110px;}
-    </style>
-
-    <style>
-        #review main {
-            position: relative;
-            width: calc(min(90rem, 90%));
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            /*  min-height: 100vh;
-            min-height: 100svh;*/
-            column-gap: 3rem;
-            padding-block: min(20vh, 3rem);
-        }
-
-        #review .swiper {
-            width: 100%;
-            padding: 1.875rem 0;
-        }
-
-        #review .swiper-slide {
-            width: 18.75rem;
-            /*height: 35rem;*/
-            display: flex;
-            flex-direction: column;
-            justify-content: end;
-            align-items: self-start;
-            box-shadow: 0.063rem 0.5rem 1.25rem rgba(0, 0, 0, 0.1216);
-            border-bottom-left-radius: 0.5rem;
-            border-bottom-right-radius: 0.5rem;
-        }
-
-        #review .swiper-slide-img {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            transform: rotate(180deg);
-            line-height: 0;
-            bottom: -0.063rem;
-            border-bottom-left-radius: 0.5rem;
-            border-bottom-right-radius: 0.5rem;
-        }
-
-            #review .swiper-slide-img img {
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                inset: 0;
-                object-fit: cover;
-                z-index: -1;
-                transition: 0.3s ease-in-out;
-                transform: rotate(-180deg);
-            }
-
-            #review .swiper-slide-img svg {
-                position: relative;
-                display: block;
-                width: calc(300% + 1.3px);
-                height: 5rem;
-                transform: rotateY(180deg);
-            }
-
-            #review .swiper-slide-img .shape-fill {
-                fill: #ffffff;
-            }
-
-        #review .swiper-slide-content {
-            background: #fff;
-            padding: 0 1.65rem;
-            border-bottom-left-radius: 0.5rem;
-            border-bottom-right-radius: 0.5rem;
-            width: 100%;
-        }
-
-            #review .swiper-slide-content > div {
-                transform: translateY(-1.25rem);
-            }
-
-            #review .swiper-slide-content h2 {
-                color: #000;
-                font-family: "Raleway", sans-serif;
-                font-weight: 700;
-                font-size: 1.4rem;
-                line-height: 1.4;
-                margin-bottom: 0.425rem;
-                text-transform: capitalize;
-                letter-spacing: 0.02rem;
-            }
-
-            #review .swiper-slide-content p {
-                color: #000;
-                line-height: 1.6;
-                font-size: 0.9rem;
-                display: -webkit-box;
-                -webkit-line-clamp: 2;
-                -webkit-box-orient: vertical;
-                overflow: hidden;
-            }
-
-            #review .swiper-slide-content .show-more {
-                width: 3.125rem;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background: #24aad9;
-                border-radius: 50%;
-                box-shadow: 0px 0.125rem 0.875rem #24aad96b;
-                margin-top: 1em;
-                margin-bottom: 0.2em;
-                height: 0;
-                opacity: 0;
-                transition: opacity 0.3s ease-in;
-                margin-left: auto;
-            }
-
-                #review .swiper-slide-content .show-more:hover {
-                    background: #1184ac;
-                }
-
-                #review .swiper-slide-content .show-more svg {
-                    width: 1.75rem;
-                    color: #fff;
-                }
-
-        /*.swiper-slide-active:hover img {
-            transform: scale(1.2) rotate(-185deg);
-        }*/
-
-        #review .swiper-slide-active:hover .show-more {
-            opacity: 1;
-            height: 3.125rem;
-        }
-
-        #review .swiper-slide-active:hover p {
-            display: block;
-            overflow: visible;
-        }
-
-        #review .swiper-3d .swiper-slide-shadow-left,
-        #review .swiper-3d .swiper-slide-shadow-right {
-            background-image: none;
-        }
-
-        @media screen and (min-width: 93.75rem) {
-            #review .swiper {
-                width: 85%;
-            }
-        }
-
-    </style>
-
+   
 </head>
 <body>
     <!-- header start -->
@@ -208,13 +53,13 @@
             <div class="">
                 <div class="container">
                     <div class="p-2">
-                        <nav class="navbar navbar-expand-xl m-0 p-0">
+                        <nav class="navbar navbar-expand-lg m-0 p-0">
                             <div class="container-fluid m-0 p-0">
                                 <a class="navbar-brand" href="#">
                                     <img src="images/tekkmuscle-logo.png" class="img-fluid logo" />
                                 </a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                                    <img src="images/icons/social/nav-btn-color.png" />
+                                    <img src="images/icons/nav-btn.png" />
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                                     <!-- Navigation starts -->
@@ -232,13 +77,13 @@
                                             <a class="nav-link me-3" href="#">Contact</a>
                                         </li>
                                         <li class="nav-item">
-                                            <input type="text" class="rounded-4 bg-white p-1 me-4" placeholder="Search your products" />
+                                            <a href="#" class="nav-link"><input type="text" class="rounded-4 bg-white p-1 me-4" placeholder="Search your products" /></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#"><img src="images/icons/user.png" class="img-fluid me-4" /></a>
+                                            <a href="#" class="nav-link"><img src="images/icons/user.png" class="img-fluid me-4" /></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#"><img src="images/icons/shopping-cart.png" class="img-fluid" /></a>
+                                            <a href="#" class="nav-link"><img src="images/icons/shopping-cart.png" class="img-fluid" /></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -256,14 +101,14 @@
         <div class="bgbanner">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="p-3">
                             <h2 class="ExtraBoldItalic text-white text-uppercase fst-italic bannerHeadName">Tekk</h2>
                             <p class="text-uppercase text-white medium semiBold mt-0 fst-italic bannerHeadsubtext">It to the next level</p>
                             <p class="text-white fontRegular semiBold bannerHeadsubtextmini">Transforming lives, Enhancing Performance</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="swiper mySwiperhome mt-4">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -271,10 +116,12 @@
                                         <div class="">
                                             <img src="images/banner-product-image.png" class="img-fluid rounded-top" />
                                             <div class="p-2 justify-content-center">
-                                                <div class="w-25" style="margin-left:195px">
+                                                <div class="w-25 rating">
                                                     <img src="images/icons/stars-5.png" class="mb-2" />
                                                 </div>
-                                                <span class="semiBold fontRegular small text-white">Tekk Whey Protein</span>
+                                                <div class="text-center">
+                                                    <span class="semiBold fontRegular small text-white text-center">Tekk Whey Protein</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -284,10 +131,12 @@
                                         <div class="">
                                             <img src="images/banner-product-image.png" class="img-fluid rounded-top" />
                                             <div class="p-2 justify-content-center">
-                                                <div class="w-25" style="margin-left:195px">
+                                                <div class="w-25 rating">
                                                     <img src="images/icons/stars-5.png" class="mb-2" />
                                                 </div>
-                                                <span class="semiBold fontRegular small text-white">Tekk Whey Protein</span>
+                                                <div class="text-center">
+                                                    <span class="semiBold fontRegular small text-white text-center">Tekk Whey Protein</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -297,10 +146,12 @@
                                         <div class="">
                                             <img src="images/banner-product-image.png" class="img-fluid rounded-top" />
                                             <div class="p-2 justify-content-center">
-                                                <div class="w-25" style="margin-left:195px">
+                                                <div class="w-25 rating">
                                                     <img src="images/icons/stars-5.png" class="mb-2" />
                                                 </div>
-                                                <span class="semiBold fontRegular small text-white">Tekk Whey Protein</span>
+                                                <div class="text-center">
+                                                    <span class="semiBold fontRegular small text-white text-center">Tekk Whey Protein</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -310,10 +161,12 @@
                                         <div class="">
                                             <img src="images/banner-product-image.png" class="img-fluid rounded-top" />
                                             <div class="p-2 justify-content-center">
-                                                <div class="w-25" style="margin-left:195px">
+                                                <div class="w-25 rating">
                                                     <img src="images/icons/stars-5.png" class="mb-2" />
                                                 </div>
-                                                <span class="semiBold fontRegular small text-white">Tekk Whey Protein</span>
+                                                <div class="text-center">
+                                                    <span class="semiBold fontRegular small text-white text-center">Tekk Whey Protein</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -334,8 +187,8 @@
             <div class="col-md-6">
                 <div class="prdproductionbg d-flex align-items-center">
                     <div class="p-3">
-                        <div class="d-flex align-items-start float-end">
-                            <a href="#" class="text-decoration-none text-white text-uppercase semiBold semiMedium">
+                        <div class="d-flex align-items-start">
+                            <a href="#" class="text-decoration-none text-white text-uppercase semiBold semiMedium populationcat">
                                 Population <br />
                                 Categories
                             </a>
@@ -376,7 +229,7 @@
                             <div class="bg-black text-center">
                                 <img src="images/products/produt-2.png" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
-                                <img src="images/icons/stars-5.png" class="mb-3 w-25" style="margin-left:135px" />
+                                <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
                                 <span class="semiBold small fontRegular text-white">Premium Gold Whey Protein</span>
                                 <span class="space10"></span>
                                 <span class="text-white semiBold">&#8377; 1,200 <span class="ms-2 semiBold text-decoration-line-through">1,375</span></span>
@@ -388,7 +241,7 @@
                             <div class="bg-black text-center">
                                 <img src="images/products/product-3.jpg" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
-                                <img src="images/icons/stars-5.png" class="mb-3 w-25" style="margin-left:135px" />
+                                <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
                                 <span class="semiBold small fontRegular text-white">Premium Gold Whey Protein</span>
                                 <span class="space10"></span>
                                 <span class="text-white semiBold">&#8377; 1,200 <span class="ms-2 semiBold text-decoration-line-through">1,375</span></span>
@@ -400,7 +253,7 @@
                             <div class="bg-black text-center">
                                 <img src="images/products/product-1.png" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
-                                <img src="images/icons/stars-5.png" class="mb-3 w-25" style="margin-left:135px" />
+                                <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
                                 <span class="semiBold small fontRegular text-white">Premium Gold Whey Protein</span>
                                 <span class="space10"></span>
                                 <span class="text-white semiBold">&#8377; 1,200 <span class="ms-2 semiBold text-decoration-line-through">1,375</span></span>
@@ -412,7 +265,7 @@
                             <div class="bg-black text-center">
                                 <img src="images/products/produt-2.png" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
-                                <img src="images/icons/stars-5.png" class="mb-3 w-25" style="margin-left:135px" />
+                                <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
                                 <span class="semiBold small fontRegular text-white">Premium Gold Whey Protein</span>
                                 <span class="space10"></span>
                                 <span class="text-white semiBold">&#8377; 1,200 <span class="ms-2 semiBold text-decoration-line-through">1,375</span></span>
@@ -424,7 +277,7 @@
                             <div class="bg-black text-center">
                                 <img src="images/products/product-1.png" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
-                                <img src="images/icons/stars-5.png" class="mb-3 w-25" style="margin-left:135px" />
+                                <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
                                 <span class="semiBold small fontRegular text-white">Premium Gold Whey Protein</span>
                                 <span class="space10"></span>
                                 <span class="text-white semiBold">&#8377; 1,200 <span class="ms-2 semiBold text-decoration-line-through">1,375</span></span>
@@ -433,9 +286,10 @@
                             </div>
                         </div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                     <a href="#" class="text-uppercase text-white mt-3 semiBold text-decoration-none">See all products &#x276F;</a>
                     <span class="space30"></span>
-                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
@@ -485,7 +339,7 @@
                             <div class="text-center">
                                 <img src="images/products/produt-2.png" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
-                                <img src="images/icons/stars-5.png" class="mb-3 w-25" style="margin-left:135px" />
+                                <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
                                 <span class="semiBold small fontRegular text-white">Energy Booster</span>
                                 <span class="space10"></span>
                                 <span class="text-white semiBold">&#8377; 1,200 <span class="ms-2 semiBold text-decoration-line-through">1,375</span></span>
@@ -497,7 +351,7 @@
                             <div class="text-center">
                                 <img src="images/products/product-3.jpg" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
-                                <img src="images/icons/stars-5.png" class="mb-3 w-25" style="margin-left:135px" />
+                                <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
                                 <span class="semiBold small fontRegular text-white">BCAA Energy</span>
                                 <span class="space10"></span>
                                 <span class="text-white semiBold">&#8377; 1,200 <span class="ms-2 semiBold text-decoration-line-through">1,375</span></span>
@@ -509,7 +363,7 @@
                             <div class="text-center">
                                 <img src="images/products/product-1.png" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
-                                <img src="images/icons/stars-5.png" class="mb-3 w-25" style="margin-left:135px" />
+                                <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
                                 <span class="semiBold small fontRegular text-white">Livestamin Enegry Booster</span>
                                 <span class="space10"></span>
                                 <span class="text-white semiBold">&#8377; 1,200 <span class="ms-2 semiBold text-decoration-line-through">1,375</span></span>
@@ -521,7 +375,7 @@
                             <div class="text-center">
                                 <img src="images/products/produt-2.png" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
-                                <img src="images/icons/stars-5.png" class="mb-3 w-25" style="margin-left:135px" />
+                                <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
                                 <span class="semiBold small fontRegular text-white">Livestamin Enegry Booster</span>
                                 <span class="space10"></span>
                                 <span class="text-white semiBold">&#8377; 1,200 <span class="ms-2 semiBold text-decoration-line-through">1,375</span></span>
@@ -533,7 +387,7 @@
                             <div class="text-center">
                                 <img src="images/products/product-1.png" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
-                                <img src="images/icons/stars-5.png" class="mb-3 w-25" style="margin-left:135px" />
+                                <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
                                 <span class="semiBold small fontRegular text-white">Livestamin Enegry Booster</span>
                                 <span class="space10"></span>
                                 <span class="text-white semiBold">&#8377; 1,200 <span class="ms-2 semiBold text-decoration-line-through">1,375</span></span>
@@ -542,6 +396,8 @@
                             </div>
                         </div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                     <a href="#" class="text-uppercase text-white mt-3 semiBold text-decoration-none">See all products &#x276F;</a>
                     <span class="space30"></span>
                     <!--<div class="swiper-pagination"></div>-->
@@ -571,7 +427,7 @@
                 <div class="articalebg d-flex align-items-center">
                     <div class="p-3">
                         <div class="d-flex align-items-start float-end">
-                            <a href="#" class="text-decoration-none text-white text-uppercase semiBold semiMedium">
+                            <a href="#" class="text-decoration-none text-white text-uppercase semiBold semiMedium populationcat">
                                 Articles <br />
                                 & Advice
                             </a>
@@ -642,7 +498,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-3 testinfoclr" style="text-align:left">
-                                            <img src="images/icons/test-qoute-color.png" class="img-fluid mb-2 w-25" />
+                                            <img src="images/icons/test-qoute-color.png" class="img-fluid mb-2 w-25" /><br />
                                             <span class="semiBold testinfoclr text-uppercase">Shruti Singh</span>
                                             <span class="space5"></span>
                                             <span class="small fontRegular text-uppercase">Member</span>
@@ -661,7 +517,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-3 text-white" style="text-align:left">
-                                            <img src="images/icons/test-qoute-white.png" class="img-fluid mb-2 w-25" />
+                                            <img src="images/icons/test-qoute-white.png" class="img-fluid mb-2 w-25" /><br />
                                             <span class="semiBold text-white text-uppercase">Shruti Singh</span>
                                             <span class="space5"></span>
                                             <span class="small fontRegular text-uppercase">Member</span>
@@ -680,7 +536,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-3 testinfoclr" style="text-align:left">
-                                            <img src="images/icons/test-qoute-color.png" class="img-fluid mb-2 w-25" />
+                                            <img src="images/icons/test-qoute-color.png" class="img-fluid mb-2 w-25" /><br />
                                             <span class="semiBold testinfoclr text-uppercase">Shruti Singh</span>
                                             <span class="space5"></span>
                                             <span class="small fontRegular text-uppercase">Member</span>
@@ -699,7 +555,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-3 testinfoclr" style="text-align:left">
-                                            <img src="images/icons/test-qoute-color.png" class="img-fluid mb-2 w-25" />
+                                            <img src="images/icons/test-qoute-color.png" class="img-fluid mb-2 w-25" /><br />
                                             <span class="semiBold testinfoclr text-uppercase">Shruti Singh</span>
                                             <span class="space5"></span>
                                             <span class="small fontRegular text-uppercase">Member</span>
@@ -718,7 +574,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <div class="p-3 text-white" style="text-align:left">
-                                            <img src="images/icons/test-qoute-white.png" class="img-fluid mb-2 w-25" />
+                                            <img src="images/icons/test-qoute-white.png" class="img-fluid mb-2 w-25" /><br />
                                             <span class="semiBold text-white text-uppercase">Shruti Singh</span>
                                             <span class="space5"></span>
                                             <span class="small fontRegular text-uppercase">Member</span>
@@ -740,8 +596,8 @@
     <section id="stats">
         <div class="statbg">
             <span class="space20"></span>
-            <div class="container">
-                <div class="row">
+            <div class="container text-center">
+                <div class="row justify-content-center">
                     <div class="col-md-3">
                         <img src="images/icons/100-sure.png" class="mb-2 img-fluid w-25" />
                         <span class="space5"></span>
@@ -779,7 +635,6 @@
         </div>
     </section>
     <!-- stats end -->
-
     <!-- Footer start -->
     <section id="footer">
         <!--Footer Starts-->
@@ -790,79 +645,60 @@
                     <div class="row">
                         <div class="col-xl-3 col-lg-6">
                             <div class="p-3">
-                                <h5 class="footerCaption clrWhite">Interviewd By</h5>
+                                <h5 class="footerCaption text-uppercase testinfoclr">Products</h5>
                                 <span class="txtBorder bgDarkGrey"></span>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <img alt="" src="imagesNew/cnbc-news-logo.png" />
-                                    </div>
-                                    <div class="col-6">
-                                        <img alt="" src="imagesNew/news-24-logo.png" />
-                                    </div>
-
-                                    <%--  <div class="col-6">
-                                        <h5 class="fontRegular regular mt-4 text-white">Tie up with</h5>
-                                        <img alt="Genericart Medicine Tie up with 1 mg" src="imagesNew/1mg-tieup.png" />
-                                    </div>--%>
-                                    <div class="col-6">
-                                        <h5 class="fontRegular regular mt-4 text-white">Awarded By</h5>
-                                        <img alt="Awarded By Healthcare Crusaders" src="imagesNew/healthcare-award.jpg" />
-                                    </div>
-                                </div>
+                                <ul class="footerNav">
+                                    <li><a href="about-usnew">Proteins</a></li>
+                                    <li><a href="vision-mission">Wellness</a></li>
+                                    <li><a href="myths-facts">Amino Acids</a></li>
+                                    <li><a href="management-team">Pre-Workout</a></li>
+                                    <li><a href="our-values">Daily Support</a></li>
+                                    <li><a href="social-activities">Bundle Stacks</a></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-6">
                             <div class="p-3">
-                                <h5 class="footerCaption clrWhite">Quick Links</h5>
+                                <h5 class="footerCaption text-uppercase clrWhite">Explore</h5>
                                 <span class="txtBorder bgDarkGrey"></span>
                                 <div class="pad_R_15 borderRight">
-                                    <span class="semiBold semiMedium text-white ms-1">About Us</span>
                                     <ul class="footerNav">
-
-                                        <%--
-                                        <li><a href="aboutus-new.html" class="semiBold semiMedium text-decoration-underline"></a></li>--%>
-                                        <li><a href="about-usnew">Company Profile</a></li>
-                                        <%--
-                                        <li><a href="medicine-showcase">Generic Products</a></li>--%>
-                                        <li><a href="vision-mission">Vision &amp; Mission</a></li>
-                                        <li><a href="myths-facts">Myth &amp; Facts</a></li>
-                                        <li><a href="management-team">Our Team</a></li>
-                                        <li><a href="our-values">Our Values</a></li>
-                                        <li><a href="social-activities">Social Activities</a></li>
-                                        <%--
-                                        <li><a href="need-of-generic-medicine">Need Of Generic Medicines</a></li>
-                                        <li><a href="gobp-registration">GOBP Registration</a></li>--%>
+                                        <li><a href="about-usnew">News</a></li>
+                                        <li><a href="vision-mission">Blogs</a></li>
+                                        <li><a href="myths-facts">About</a></li>
+                                        <li><a href="management-team">Our Athletes</a></li>
+                                        <li><a href="our-values">Our Stories</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-6">
                             <div class="p-3">
-                                <h5 class="footerCaption clrWhite">Contact Us</h5>
+                                <h5 class="footerCaption text-uppercase clrWhite">Information</h5>
                                 <span class="txtBorder bgDarkGrey"></span>
-                                <span class="addr small text-white"><span class="text-white small">Genericart House</span>Bhokare colony, opp. <br />Reliance petrol pump, <br />Miraj sangli road, Miraj 410410</span>
-                                <span class="space15"></span>
-                                <span class="foo_call text-white me-3">1800 1200 61313</span>
-                                <span class="space10"></span>
-                                <span class="email text-white small mb-3 breakWord">enquiry&#64;genericartmedicine&#46;com</span>
-                                <a href="https://www.facebook.com/genericartmedicine/"><img src="imagesNew/icons/facebook.png" class="img-fluid me-3 socailfoot" /></a>
-
-                                <a href="https://instagram.com/genericart_medicine_official?igshid=1gsdya7xv43h"><img src="imagesNew/icons/instagram.png" class="img-fluid  me-3 socailfoot" /></a>
-                                <a href="#"><img src="imagesNew/icons/whatsapp.png" class="img-fluid socailfoot" /></a>
+                                <div class="pad_R_15 borderRight">
+                                    <ul class="footerNav">
+                                        <li><a href="about-usnew">Contact Us</a></li>
+                                        <li><a href="vision-mission">Terms Of Use</a></li>
+                                        <li><a href="myths-facts">Privacy Policy</a></li>
+                                        <li><a href="management-team">Shipping & Delivery Policy</a></li>
+                                        <li><a href="our-values">Return and Refund</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-6">
                             <div class="p-3">
-                                <h5 class="footerCaption clrWhite">Mobile App</h5>
-                                <span class="txtBorder bgDarkGrey"></span>
-                                <a href="https://play.google.com/store/apps/details?id=com.autoqed.genericartmedicine" title="Download our app from Google Playstore" target="_blank"><img src="imagesNew/playstore-logo.png" class="img-fluid" /></a>
-                                <span class="space10"></span>
-                                <img src="imagesNew/apple-logo.png" class="img-fluid" />
-                                <span class="space20"></span>
-                                <h5 class="footerCaption clrWhite mb-2">News Letter</h5>
-                                <%--<span class="text-white small mb-3">info&#64;example&#46;com</span>--%>
-                                <input class="form-control form-control-sm w-75" type="text" placeholder="Enter your email" aria-label=".form-control-sm example">
-                                <a href="#" class="btnViewMore mt-3">Submit</a>
+                                <h5 class="footerCaption text-uppercase clrWhite">Newsletter</h5>
+                                <input class="form-control form-control-sm w-75 ratTextBox" type="text" placeholder="Enter your email" aria-label=".form-control-sm example">
+                                <span class="space30"></span>
+                                <!-- Social Icons -->
+                                <a href="#"><img src="images/icons/fb-footer.png" class="img-fluid me-3 socailfoot" /></a>
+                                <a href="#"><img src="images/icons/insta-footer.png" class="img-fluid me-3 socailfoot" /></a>
+                                <a href="#"><img src="images/icons/whatsapp-footer.png" class="img-fluid me-3 socailfoot" /></a>
+                                <a href="#"><img src="images/icons/linkdin-footer.png" class="img-fluid me-3 socailfoot" /></a>
+                                <a href="#"><img src="images/icons/youtube-footer.png" class="img-fluid me-3 socailfoot" /></a>
+                                <!-- Social Icons -->
                             </div>
                         </div>
                     </div>
@@ -873,7 +709,7 @@
             <div class="copyRight" id="copyright">
                 <div class="container">
                     <div class="p-4">
-                        <span class="text-white small fontRegular">Copyrights © <%=Currentyear %> Genericart Medicine Pvt. Ltd. All Rights Reserved. </span>
+                        <span class="small colorBlack semiBold fontRegular">Copyrights © 2024 Tekk Muscle</span>
                     </div>
                 </div>
             </div>
@@ -881,15 +717,54 @@
         <!--Footer Ends-->
     </section>
     <!-- footer end -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <!-- Product category script -->
     <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 30,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                1200: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                },
+                1140: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                },
+                920: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                800: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                540: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                }
+            }
         });
     </script>
 
@@ -945,5 +820,6 @@
             }
         });
     </script>
+    <script type="text/javascript" src="https://d2jyl60qlhb39o.cloudfront.net/integration-plugin.js" id="wa-widget" widget-id="ShtkMM"></script>
 </body>
 </html>
