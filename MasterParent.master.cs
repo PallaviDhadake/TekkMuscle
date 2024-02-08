@@ -7,9 +7,11 @@ using System.Web.UI.WebControls;
 
 public partial class MasterParent : System.Web.UI.MasterPage
 {
-    public string currentYear;
+    iClass c = new iClass();
+    public string currentYear, rootPath;
     protected void Page_Load(object sender, EventArgs e)
     {
+        rootPath = c.ReturnHttp();
         currentYear = DateTime.Now.Year.ToString();
     }
 }
