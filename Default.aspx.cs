@@ -7,9 +7,12 @@ using System.Web.UI.WebControls;
 
 public partial class _Default : System.Web.UI.Page
 {
+    iClass c = new iClass();
+    public string rootPath;
     public string currentYear;
     protected void Page_Load(object sender, EventArgs e)
     {
+        rootPath = c.ReturnHttp();
         currentYear = DateTime.Now.Year.ToString();
     }
 }

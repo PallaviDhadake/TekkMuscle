@@ -216,27 +216,27 @@ body {overflow-x:hidden; overflow-y:auto !important; overflow:initial;}
 .banneroverly{background:rgba(0, 0, 0, 0.3); position:absolute; overflow:hidden;  z-index:1 !important; top:0; left:0; width:100%; height:100%;}
 .overlyBannr{background:rgba(0,0,0,0.3); height:100%;}
 #bannerBg {background:url("../images/banner-bg.jpg") no-repeat center center; width:100%;background-size:cover;}
-.bgbanner{background:url("../images/home-banner.jpg") no-repeat center center; background-size:cover; width:100%; height:700px; z-index:999;}
+.bgbanner{background:url("../images/home-banner.jpg") no-repeat center center; background-size:cover; width:100%; height:650px; z-index:999;}
 #banner .swiper {}
 #banner .swiper-slide {background:none;}
 #banner .swiper-slide img {width:100% !important; background-size:contain !important}
 /* Custom arrow images */
-#banner .swiper-button-next{margin-top: 250px; background-image: url("../images/icons/banner-icon-prev.png"); background-size: cover; width:24px; height:24px; margin-right:130px !important;}
+#banner .swiper-button-next{margin-top: 230px; background-image: url("../images/icons/banner-icon-prev.png"); background-size: cover; width:24px; height:24px; margin-right:130px !important;}
 
-#banner .swiper-button-prev { margin-top: 250px; background-image: url("../images/icons/banner-icon-next.png"); background-size: cover; width:24px; height:24px; margin-left:130px !important;}
+#banner .swiper-button-prev { margin-top: 230px; background-image: url("../images/icons/banner-icon-next.png"); background-size: cover; width:24px; height:24px; margin-left:130px !important;}
 
 #banner .swiper-button-next::after, .swiper-button-prev::after {display: none;}
 
 
-#newarrivals .swiper-button-next {background-image: url("../images/icons/arrow-right-blue.png"); background-size: cover; width:24px; height:24px; /*margin-top:-120px; margin-right:-10px !important;*/ position:absolute; top:250px; right:-30px !important; z-index:999999999 !important;}
+#newarrivals .swiper-button-next {background-image: url("../images/icons/arrow-right-blue.png"); background-size: cover; width:24px; height:24px; margin-top:120px; margin-right:-10px !important;}
 
-#newarrivals .swiper-button-prev {background-image: url("../images/icons/arrow-left-blue.png"); background-size: cover; width:24px; height:24px; /*margin-top:-120px;*/ position:absolute; top:250px; left:-30px !important; z-index:999999999 !important;}
+#newarrivals .swiper-button-prev {background-image: url("../images/icons/arrow-left-blue.png"); background-size: cover; width:24px; height:24px; margin-top:120px;}
 
 #newarrivals .swiper-button-next::after, .swiper-button-prev::after {display: none;}
 
-#boosters .swiper-button-next {background-image: url("../images/icons/arrow-right-blue.png"); background-size: cover; width:24px; height:24px; /*margin-top:120px; margin-right:-10px !important;*/ position:absolute; top:250px; right:-30px !important; z-index:999999999 !important;}
+#boosters .swiper-button-next {background-image: url("../images/icons/arrow-right-blue.png"); background-size: cover; width:24px; height:24px; margin-top:120px; margin-right:-10px !important;}
 
-#boosters .swiper-button-prev {background-image: url("../images/icons/arrow-left-blue.png"); background-size: cover; width:24px; height:24px; /*margin-top:120px;*/ position:absolute; top:250px; left:-30px !important; z-index:999999999 !important;}
+#boosters .swiper-button-prev {background-image: url("../images/icons/arrow-left-blue.png"); background-size: cover; width:24px; height:24px; margin-top:120px;}
 
 #boosters .swiper-button-next::after, .swiper-button-prev::after {display: none;}
 
@@ -244,9 +244,6 @@ body {overflow-x:hidden; overflow-y:auto !important; overflow:initial;}
 
 
 
-/*======================Scroll to top================================*/
-.absTopArrow{position:fixed; bottom:400px; right:30px; z-index:55;}
-.fixedArrow{background:url("../images/icons/scroll-to-top.png") no-repeat center center; display:block; height:65px; width:64px; }
 
 
 
@@ -334,13 +331,17 @@ body {overflow-x:hidden; overflow-y:auto !important; overflow:initial;}
 /*.swiper {width: 100%; height: 100%;}
 .swiper-slide {text-align: center; background:none;}
 .swiper-slide img { display: block; width: 100%; height: 100%; object-fit: cover;}
-*/.bgbooster{background:linear-gradient(to top, #003b58 , #00141e)}
+*/
+.bgbooster{background:linear-gradient(to top, #003b58 , #00141e)}
 .bgtestcolor{background:linear-gradient(to top, #368fbb, #136891)}
 .testinfoclr{color:#4ea4d2}
+ idth:r; height:400px; width:100%;}
 
+/*++++++++++   Other part +
++*/
 .statbg{background:#0072a4;}
 
-.articalebg{background:url("../images/artical-advise.jpg") no-repeat center center; background-size:cover; height:400px; width:100%;}
+articalebg{background:url("../images/artical-advise.jpg") no-repeat center center; background-size:cover; height:400px; width:100%;}
 .proteinpacked{background:url("../images/protein-packed-recipe.jpg") no-repeat center center; background-size:cover; height:400px; width:100%;}
 
 /*++++++++   Other part +++++++++++++++++*/
@@ -560,9 +561,9 @@ body {overflow-x:hidden; overflow-y:auto !important; overflow:initial;}
 
 /*rate us*/
 .ratTextBox{padding:0.8em; display:block; resize:none; width:97%; border-bottom:1px solid #fff !important; transition:all 0.5s ease; background:none !important;  border:none; color:#fff !important;}
-.ratTextBox:focus{border:none; outline:none;}
-.ratebtn{background-color:#fff; border:2px solid #fff; color:#00b5f0; font-size:1em; padding:10px 18px; border-radius:2px; cursor:pointer; -webkit-transition:all 0.7s ease; transition:all 0.7s ease; font-weight:400;}
-.ratebtn:hover{border:2px solid #fff; background:none; color:#fff;}
+.ratTextBox:focus{border:none; border-bottom:1px solid #00b5f0; outline:none; }
+.ratebtn{background-color:#4eaad8; border:2px solid #4eaad8; color:#fff; font-size:1em; padding:10px 30px; border-radius:2px; cursor:pointer; -webkit-transition:all 0.7s ease; transition:all 0.7s ease; font-weight:400;}
+.ratebtn:hover{border:2px solid #4eaad8; background:none; color:#4eaad8;}
 .conBox{background:linear-gradient(250deg, #2faeb2, #A4EAED);}
 .reviewquote{position:relative !important;}
 .reviewquote:before{content:''; width:70px; height:3px; background:#1e1e1e !important; position:absolute; top:37px; left:-75px !important;}
@@ -826,8 +827,8 @@ body {overflow-x:hidden; overflow-y:auto !important; overflow:initial;}
 .con-addr{background:url("../images/icons/location.png") no-repeat top left;  display:block; padding-left:34px; font-weight:400; color:#7f888b; word-wrap:break-word;}
 .con-email{background:url("../images/icons/mail.png") no-repeat top left; line-height:1.8em; display:block; text-decoration:none; padding-left:34px;  font-weight:400; color:#7f888b;}
 .con_call{background:url("../images/icons/call.png") no-repeat top left; line-height:1.9em; display:block; text-decoration:none; padding-left:34px; font-weight:400; color:#7f888b; }
-/*.absTopArrow{position:fixed; bottom:15px; right:20px; z-index:55;}
-.fixedArrow{background:url("../images/icons/up-arrow.png") no-repeat center center; display:block; height:48px; width:48px;}*/
+.absTopArrow{position:fixed; bottom:15px; right:20px; z-index:55;}
+.fixedArrow{background:url("../images/icons/up-arrow.png") no-repeat center center; display:block; height:48px; width:48px;}
 
 
 /*work section*/
@@ -1069,7 +1070,7 @@ body {overflow-x:hidden; overflow-y:auto !important; overflow:initial;}
 }
 .bannerHeadName {
     font-size: 8.2em;
-    margin-top: 160px;
+    margin-top: 145px;
     margin-left: 105px !important;
 }
 
@@ -1114,12 +1115,8 @@ body {overflow-x:hidden; overflow-y:auto !important; overflow:initial;}
     background-size: cover;
     width: 24px;
     height: 24px;
-    /* margin-top: 30px;
-    margin-right: -10px !important;*/
-    position: absolute;
-    top: 150px;
-    right: -30px !important;
-    z-index: 999999999 !important;
+    margin-top: 30px;
+    margin-right: -10px !important;
 }
 
 #trending .swiper-button-prev,
@@ -1131,11 +1128,7 @@ body {overflow-x:hidden; overflow-y:auto !important; overflow:initial;}
     background-size: cover;
     width: 24px;
     height: 24px;
-    /*margin-top: 30px;*/
-    position: absolute;
-    top: 150px;
-    left: -30px !important;
-    z-index: 999999999 !important;
+    margin-top: 30px;
 }
 
     #trending .swiper-button-next::after,

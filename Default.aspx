@@ -17,7 +17,7 @@
 
     <!-- Bootstrap -->
     <link href="Vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="Vendor/bootstrap/js/bootstrap.min.js"></script>
+    <%--<script src="Vendor/bootstrap/js/bootstrap.min.js"></script>--%>
 
     <!-- aos -->
     <script src="js/jquery-2.2.4.min.js"></script>
@@ -39,6 +39,9 @@
 
 </head>
 <body>
+     <div class="absTopArrow" title="Scroll Top">
+        <a href="#header"><div class="fixedArrow"></div></a>
+    </div>
    <!-- header start -->
     <section id="header">
         <div class="header">
@@ -58,7 +61,7 @@
                     <div class="p-2">
                         <nav class="navbar navbar-expand-lg m-0 p-0">
                             <div class="container-fluid m-0 p-0">
-                                <a class="navbar-brand" href="#">
+                                <a class="navbar-brand" href="<%=rootPath %>">
                                     <img src="images/tekkmuscle-logo.png" class="img-fluid logo" />
                                 </a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,16 +71,16 @@
                                     <!-- Navigation starts -->
                                     <ul class="navbar-nav ms-auto">
                                         <li class="nav-item">
-                                            <a class="nav-link" aria-current="page" href="#">Shop</a>
+                                            <a class="nav-link" aria-current="page" href="shop">Shop</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" aria-current="page" href="#">About Us</a>
+                                            <a class="nav-link" aria-current="page" href="about-us">About Us</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Blog/News</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link me-3" href="#">Contact</a>
+                                            <a class="nav-link me-3" href="contact-us">Contact</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="#" class="nav-link"><input type="text" class="rounded-4 bg-white p-1 me-4" placeholder="Search your products" /></a>
@@ -188,11 +191,11 @@
     <section id="category">
         <div class="row g-0">
             <div class="col-md-6">
-                <div class="prdproductionbg d-flex align-items-center">
+                <div class="prdproductionbg d-flex align-items-center justify-content-end">
                     <div class="p-3">
                         <div class="d-flex align-items-start">
-                            <a href="#" class="text-decoration-none text-white text-uppercase semiBold semiMedium populationcat">
-                                Population <br />
+                            <a href="#" class="text-decoration-none text-white text-uppercase semiBold semiMedium float-end ">Population
+                                    <br />
                                 Categories
                             </a>
                             <div class="ms-4">
@@ -205,11 +208,11 @@
             <div class="col-md-6">
                 <div class="prdcategorybg d-flex align-items-center">
                     <div class="p-3">
-                        <div class="d-flex align-items-start float-end">
+                        <div class="d-flex align-items-start">
                             <img src="images/icons/arow-right.png" />
                             <div class="ms-4">
-                                <a href="#" class="text-decoration-none text-white text-uppercase semiBold semiMedium">
-                                    Product <br />
+                                <a href="#" class="text-decoration-none text-white text-uppercase semiBold semiMedium">Product
+                                    <br />
                                     Categories
                                 </a>
                             </div>
@@ -224,7 +227,7 @@
     <section id="newarrivals" class="">
         <div class="bg-black">
             <span class="space40"></span>
-            <div class="container text-center">
+            <div class="container text-center position-relative">
                 <h2 class="ExtraBoldItalic fst-italic text-white text-uppercase mb-5">New Arrivals</h2>
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
@@ -289,11 +292,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <a href="#" class="text-uppercase text-white mt-3 semiBold text-decoration-none">See all products &#x276F;</a>
-                    <span class="space30"></span>
+                    
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <a href="#" class="text-uppercase text-white mt-3 semiBold text-decoration-none">See all products &#x276F;</a>
+                <span class="space30"></span>
             </div>
         </div>
     </section>
@@ -334,7 +338,7 @@
     <section id="boosters">
         <div class="bgbooster">
             <span class="space50"></span>
-            <div class="container text-center">
+            <div class="container text-center position-relative">
                 <h2 class="ExtraBoldItalic fst-italic text-white text-uppercase mb-5">Energy Booster</h2>
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
@@ -399,19 +403,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <a href="#" class="text-uppercase text-white mt-3 semiBold text-decoration-none">See all products &#x276F;</a>
-                    <span class="space30"></span>
+                   
                     <!--<div class="swiper-pagination"></div>-->
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <a href="#" class="text-uppercase text-white mt-3 semiBold text-decoration-none">See all products &#x276F;</a>
+                <span class="space30"></span>
             </div>
             <div class="clearfix"></div>
-            <div class="container">
+            <%--<div class="container">
                 <div class="">
                     <a href="#" class="text-decoration-none float-end"><img src="images/icons/scroll-to-top.png" class="img-fluid " style="text-align:center !important" /></a>
                 </div>
-            </div>
+            </div>--%>
             <span class="space80"></span>
             <span class="space20"></span>
 
@@ -427,10 +432,10 @@
     <section id="educationres">
         <div class="row g-0">
             <div class="col-md-6">
-                <div class="articalebg d-flex align-items-center">
+                <div class="articalebg d-flex align-items-center justify-content-end">
                     <div class="p-3">
                         <div class="d-flex align-items-start float-end">
-                            <a href="#" class="text-decoration-none text-white text-uppercase semiBold semiMedium populationcat">
+                            <a href="#" class="text-decoration-none text-white text-uppercase semiBold semiMedium">
                                 Articles <br />
                                 & Advice
                             </a>
@@ -638,6 +643,45 @@
         </div>
     </section>
     <!-- stats end -->
+
+
+    <%-- Health questions model starts --%>
+   <%-- <section id="questions">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Launch static backdrop modal
+        </button>--%>
+
+        <!-- Modal -->
+        <%--<section id="questions">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Launch static backdrop modal
+        </button>--%>
+
+        <!-- Modal -->
+       <%-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>--%>
+    <%--</section>--%>
+    <%-- Health questions model ends --%>
+
+
     <!-- Footer start -->
     <section id="footer">
         <!--Footer Starts-->
@@ -651,12 +695,12 @@
                                 <h5 class="footerCaption text-uppercase testinfoclr">Products</h5>
                                 <span class="txtBorder bgDarkGrey"></span>
                                 <ul class="footerNav">
-                                    <li><a href="about-usnew">Proteins</a></li>
-                                    <li><a href="vision-mission">Wellness</a></li>
-                                    <li><a href="myths-facts">Amino Acids</a></li>
-                                    <li><a href="management-team">Pre-Workout</a></li>
-                                    <li><a href="our-values">Daily Support</a></li>
-                                    <li><a href="social-activities">Bundle Stacks</a></li>
+                                    <li><a href="#">Proteins</a></li>
+                                    <li><a href="#">Wellness</a></li>
+                                    <li><a href="#">Amino Acids</a></li>
+                                    <li><a href="#">Pre-Workout</a></li>
+                                    <li><a href="#">Daily Support</a></li>
+                                    <li><a href="#">Bundle Stacks</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -666,11 +710,11 @@
                                 <span class="txtBorder bgDarkGrey"></span>
                                 <div class="pad_R_15 borderRight">
                                     <ul class="footerNav">
-                                        <li><a href="about-usnew">News</a></li>
-                                        <li><a href="vision-mission">Blogs</a></li>
-                                        <li><a href="myths-facts">About</a></li>
-                                        <li><a href="management-team">Our Athletes</a></li>
-                                        <li><a href="our-values">Our Stories</a></li>
+                                        <li><a href="#">News</a></li>
+                                        <li><a href="#">Blogs</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Our Athletes</a></li>
+                                        <li><a href="#">Our Stories</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -681,11 +725,11 @@
                                 <span class="txtBorder bgDarkGrey"></span>
                                 <div class="pad_R_15 borderRight">
                                     <ul class="footerNav">
-                                        <li><a href="about-usnew">Contact Us</a></li>
-                                        <li><a href="vision-mission">Terms Of Use</a></li>
-                                        <li><a href="myths-facts">Privacy Policy</a></li>
-                                        <li><a href="management-team">Shipping & Delivery Policy</a></li>
-                                        <li><a href="our-values">Return and Refund</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Terms Of Use</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Shipping & Delivery Policy</a></li>
+                                        <li><a href="#">Return and Refund</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -824,5 +868,8 @@
         });
     </script>
     <script type="text/javascript" src="https://d2jyl60qlhb39o.cloudfront.net/integration-plugin.js" id="wa-widget" widget-id="ShtkMM"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>

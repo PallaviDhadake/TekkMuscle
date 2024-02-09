@@ -4,6 +4,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <style>
         .quessionariybgclr{background:#032435}
+        .populationengboost{background:linear-gradient(to top, #4aa5d3, #003f5e)}
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -96,7 +97,12 @@
     <section id="category" class="quessionariybgclr">
         <span class="space50"></span>
         <div class="container text-center">
+            <div class="float-start">
+               <a href="#"><img src="images/icons/close-btn.png" class="w-50" /></a> 
+            </div>
+            
             <span class="semiBold text-white text-uppercase fst-italic">Fill Out health quessionnaire For Personalize results</span>
+            <span class="space20"></span>
             <div class="row g-0">
                 <div class="col-md">
                     <div class="p-2">
@@ -140,14 +146,14 @@
     <!-- category section -->
     <!-- New arrivals -->
     <section id="newarrivals" class="">
-        <div class="bg-black">
+        <div class="bgbooster">
             <span class="space40"></span>
             <div class="container text-center">
-                <h2 class="ExtraBoldItalic fst-italic text-white text-uppercase mb-5">New Arrivals</h2>
+                <h2 class="ExtraBoldItalic fst-italic text-white text-uppercase mb-5">Whey Proteins</h2>
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="bg-black text-center">
+                            <div class="text-center">
                                 <img src="images/products/produt-2.png" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
                                 <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
@@ -159,7 +165,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="bg-black text-center">
+                            <div class="text-center">
                                 <img src="images/products/product-3.jpg" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
                                 <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
@@ -171,7 +177,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="bg-black text-center">
+                            <div class="text-center">
                                 <img src="images/products/product-1.png" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
                                 <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
@@ -183,7 +189,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="bg-black text-center">
+                            <div class="text-center">
                                 <img src="images/products/produt-2.png" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
                                 <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
@@ -195,7 +201,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="bg-black text-center">
+                            <div class="text-center">
                                 <img src="images/products/product-1.png" class="img-fluid w-100 mb-3" />
                                 <span class="space10"></span>
                                 <img src="images/icons/stars-5.png" class="mb-3 w-25" /><br />
@@ -250,7 +256,7 @@
     <!-- proven records -->
     <!-- energy booster -->
     <section id="boosters">
-        <div class="bgbooster">
+        <div class="populationengboost">
             <span class="space50"></span>
             <div class="container text-center">
                 <h2 class="ExtraBoldItalic fst-italic text-white text-uppercase mb-5">Energy Booster</h2>
@@ -331,7 +337,7 @@
                 </div>
             </div>
             <span class="space80"></span>
-            <span class="space20"></span>
+            <span class="space60"></span>
 
            <%-- <!-- Education and resources -->
             <div class="container text-center">

@@ -6,7 +6,7 @@
     <style>
         .aboutgradientbg{background:linear-gradient(to top, #03557d, #002335)}
         .mgteam{background:#000c25}
-        .memline{background:#fff !important; width:50px; height:2px;}
+        .memline{background:#4ea4d2 !important; width:150px; height:2px; margin:0 auto !important}
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -164,13 +164,16 @@
     <%-- management team --%>
 
     <section id="members" class="mgteam">
-        <div class="container mgteam  text-center">
+        <div class="container mgteam text-center">
             <span class="space40"></span>
             <div class="row gy-5">
                 <div class="col-md-4">
                     <img src="images/ManagementTeam/Tejas-kulkarni.jpg" class="mb-2"/>
                     <span class="space10"></span>
-                    <span class="border-bottom"></span>
+                    <div class="text-center">
+                        <div class="memline"></div>
+                    </div>
+                    <span class="space10"></span>
                     <span class="text-white semiBold fontRegular text-uppercase">Tejas Kulkarni</span>
                     <span class="space5"></span>
                     <span class="text-white small text-uppercase">Member</span>
@@ -179,10 +182,13 @@
                     <a href="#"> <img src="images/icons/insta-footer.png" /></a>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/ManagementTeam/Tejas-kulkarni.jpg" class="mb-2"/>
+                    <img src="images/ManagementTeam/shripad-kulkarni.jpg" class="mb-2"/>
                     <span class="space10"></span>
-                    <span class="border-bottom"></span>
-                    <span class="text-white semiBold fontRegular text-uppercase">Tejas Kulkarni</span>
+                    <div class="text-center">
+                        <div class="memline"></div>
+                    </div>
+                    <span class="space10"></span>
+                    <span class="text-white semiBold fontRegular text-uppercase">Mr.Shripad M. Kolhatkar</span>
                     <span class="space5"></span>
                     <span class="text-white small text-uppercase">Member</span>
                     <span class="space5"></span>
@@ -190,10 +196,13 @@
                     <a href="#"> <img src="images/icons/insta-footer.png" /></a>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/ManagementTeam/Tejas-kulkarni.jpg" class="mb-2"/>
+                    <img src="images/ManagementTeam/salim-sayyad.jpg" class="mb-2"/>
                     <span class="space10"></span>
-                    <span class="border-bottom"></span>
-                    <span class="text-white semiBold fontRegular text-uppercase">Tejas Kulkarni</span>
+                    <div class="text-center">
+                        <div class="memline"></div>
+                    </div>
+                    <span class="space10"></span>
+                    <span class="text-white semiBold fontRegular text-uppercase">Salim Sayyad</span>
                     <span class="space5"></span>
                     <span class="text-white small text-uppercase">Member</span>
                     <span class="space5"></span>
@@ -201,10 +210,13 @@
                     <a href="#"> <img src="images/icons/insta-footer.png" /></a>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/ManagementTeam/Tejas-kulkarni.jpg" class="mb-2"/>
+                    <img src="images/ManagementTeam/siddharth-salokhe.jpg" class="mb-2"/>
                     <span class="space10"></span>
-                    <span class="border-bottom"></span>
-                    <span class="text-white semiBold fontRegular text-uppercase">Tejas Kulkarni</span>
+                    <div class="text-center">
+                        <div class="memline"></div>
+                    </div>
+                    <span class="space10"></span>
+                    <span class="text-white semiBold fontRegular text-uppercase">MR.Siddharth Salokhe</span>
                     <span class="space5"></span>
                     <span class="text-white small text-uppercase">Member</span>
                     <span class="space5"></span>
@@ -212,10 +224,13 @@
                     <a href="#"> <img src="images/icons/insta-footer.png" /></a>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/ManagementTeam/Tejas-kulkarni.jpg" class="mb-2"/>
+                    <img src="images/ManagementTeam/shreyash-chitnis.jpg" class="mb-2"/>
                     <span class="space10"></span>
-                    <span class="border-bottom"></span>
-                    <span class="text-white semiBold fontRegular text-uppercase">Tejas Kulkarni</span>
+                    <div class="text-center">
+                        <div class="memline"></div>
+                    </div>
+                    <span class="space10"></span>
+                    <span class="text-white semiBold fontRegular text-uppercase">Mr.Sheyash Chitnis</span>
                     <span class="space5"></span>
                     <span class="text-white small text-uppercase">Member</span>
                     <span class="space5"></span>
@@ -223,10 +238,13 @@
                     <a href="#"> <img src="images/icons/insta-footer.png" /></a>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/ManagementTeam/Tejas-kulkarni.jpg" class="mb-2"/>
+                    <img src="images/ManagementTeam/shreyash-chitnis.jpg" class="mb-2"/>
                     <span class="space10"></span>
-                    <span class="border-bottom"></span>
-                    <span class="text-white semiBold fontRegular text-uppercase">Tejas Kulkarni</span>
+                    <div class="text-center">
+                        <div class="memline"></div>
+                    </div>
+                    <span class="space10"></span>
+                    <span class="text-white semiBold fontRegular text-uppercase">Mr. Chitnis</span>
                     <span class="space5"></span>
                     <span class="text-white small text-uppercase">Member</span>
                     <span class="space5"></span>

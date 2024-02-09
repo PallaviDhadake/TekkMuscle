@@ -131,7 +131,7 @@
                             <span class="text-uppercase ExtraBoldItalic colorPrime large fst-italic me-2">ALL</span><span class="text-uppercase text-white ExtraBoldItalic large fst-italic">Products</span>
                             <span class="space30"></span>
                             <%-- Trending now --%>
-                            <section id="trending">
+                            <section id="trending" class="position-relative">
                                 <span class="text-uppercase regular text-uppercase text-white fw-semibold">Trending Now</span>
                                 <span class="space20"></span>
                                 <div class="swiper mySwiper">
@@ -197,17 +197,18 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-button-next"></div>
-                                    <div class="swiper-button-prev"></div>
-                                    <span class="space30"></span>
+                                    
                                     <!--<div class="swiper-pagination"></div>-->
                                 </div>
+                                <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <span class="space30"></span>
                             </section>
                             <%-- Trending Now --%>
 
 
                             <%-- just lunched --%>
-                            <section id="justlaunch">
+                            <section id="justlaunch" class="position-relative">
                                 <span class="text-uppercase regular text-uppercase text-white fw-semibold">Just Launch</span>
                                 <span class="space20"></span>
                                 <div class="swiper mySwiper">
@@ -273,17 +274,18 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-button-next"></div>
-                                    <div class="swiper-button-prev"></div>
-                                    <span class="space30"></span>
+                                    
                                     <!--<div class="swiper-pagination"></div>-->
                                 </div>
+                                <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <span class="space30"></span>
                             </section>
                             <%-- just lunded end --%>
 
 
                             <%-- fit food range --%>
-                            <section id="fitfood">
+                            <section id="fitfood" class="position-relative">
                                 <span class="text-uppercase regular text-uppercase text-white fw-semibold">Fit Food Range</span>
                                 <span class="space20"></span>
                                 <div class="swiper mySwiper">
@@ -349,17 +351,18 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-button-next"></div>
-                                    <div class="swiper-button-prev"></div>
-                                    <span class="space30"></span>
+                                    
                                     <!--<div class="swiper-pagination"></div>-->
                                 </div>
+                                <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <span class="space30"></span>
                             </section>
                             <%-- fit food range --%>
 
 
                             <%-- Energy booster --%>
-                            <section id="enbooster">
+                            <section id="enbooster" class="position-relative">
                                 <span class="text-uppercase regular text-uppercase text-white fw-semibold">Energy Booster</span>
                                 <span class="space20"></span>
                                 <div class="swiper mySwiper">
@@ -425,17 +428,18 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-button-next"></div>
-                                    <div class="swiper-button-prev"></div>
-                                    <span class="space30"></span>
+                                  
                                     <!--<div class="swiper-pagination"></div>-->
                                 </div>
+                                  <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <span class="space30"></span>
                             </section>
                             <%-- Energy booster --%>
 
 
                             <%-- proteins --%>
-                            <section id="proteins">
+                            <section id="proteins" class="position-relative">
                                 <span class="text-uppercase regular text-uppercase text-white fw-semibold">Proteins</span>
                                 <span class="space20"></span>
                                 <div class="swiper mySwiper">
@@ -501,11 +505,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-button-next"></div>
-                                    <div class="swiper-button-prev"></div>
-                                    <span class="space30"></span>
+                                   
                                     <!--<div class="swiper-pagination"></div>-->
                                 </div>
+                                 <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <span class="space30"></span>
                             </section>
                             <%-- proteins --%>
                         </div>
@@ -514,7 +519,7 @@
             </div>
         </div>
          <!-- stats starts -->
-        <section id="stats">
+        <%--<section id="stats">
             <div class="statbg">
                 <span class="space20"></span>
                 <div class="container text-center">
@@ -552,7 +557,7 @@
                 </div>
                 <span class="space20"></span>
             </div>
-        </section>
+        </section>--%>
         <!-- stats end -->
     </section>
     <%-- Product Section end --%>
